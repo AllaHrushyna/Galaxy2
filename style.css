@@ -1,0 +1,128 @@
+body {
+    background-image: url(src/background-2.jpg);
+    background-size: cover;
+    /*height: 3000px;
+    position: relative;*/
+}
+
+h1 {
+    color: rgb(213, 253, 68);
+    /*stroke: 2px rgb(254, 255, 255);*/
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    font-size: 100px;
+}
+
+img {
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.een {
+    position: absolute;
+    bottom: 400px;
+    left: 80vw;
+    transition: 2s ease;
+    filter: blur(10px);
+}
+
+.een:hover {
+    transform: scale(5) rotate(360deg);
+    filter: sepia(100);
+}
+
+.twee {
+    position: absolute;
+    top: 300px;
+    right: 40vw;
+    transition: 1s ease;
+    filter: blur(10px);
+}
+
+.twee:hover {
+    transform: scale(5) rotate(360deg);
+    filter: contrast(200%) brightness(150%);
+}
+
+.drie {
+    position: absolute;
+    top: 1200px;
+    right: 50vw;
+    transition: 2s ease;
+    filter: blur(10px);
+}
+
+.drie:hover {
+    transform: scale(10) rotate(360deg);
+    filter: invert(100%);
+    /*filter: blur(0);*/
+}
+
+.vier {
+    position: absolute;
+    bottom: 0;
+    right: 70vw;
+    transition: 2s ease;
+    filter: blur(10px);
+}
+
+.vier:hover {
+    transform: scale(10) rotate(360deg);
+    filter: drop-shadow(5px 5px 5px rgb(255, 0, 0));
+}
+
+.vijf {
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+    transition: 1s ease;
+    filter: blur(10px);
+}
+
+.vijf:hover {
+    transform: scale(10) rotate(720deg);
+    filter: sepia(100%);
+}
+
+.zes {
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    transition: 1s ease;
+    filter: blur(5px);
+}
+
+.zes:hover {
+    transform: scale(10) rotate(720deg);
+    filter: opacity(40%);
+}
+
+.zeven {
+    position: absolute;
+    top: 200px;
+    right: 250px;
+    transition: 1s ease;
+    filter: blur(10px);
+}
+
+.zeven:hover {
+    transform: scale(10) rotate(720deg);
+    filter: invert(100%);
+}
+
+.acht {
+    position: absolute;
+    bottom: 400px;
+    right: 1650px;
+    transition: 1s ease;
+    filter: blur(10px);
+}
+
+.acht:hover {
+    transform: scale(10) rotate(720deg);
+    filter: hue-rotate(180deg);
+}
